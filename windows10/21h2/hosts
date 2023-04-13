@@ -1,0 +1,40 @@
+# Endpoints to block in Windows 10 21H2
+# See the following:
+# https://docs.microsoft.com/en-gb/windows/privacy/configure-windows-diagnostic-data-in-your-organization
+# https://docs.microsoft.com/en-us/windows/privacy/manage-windows-21h2-endpoints
+# https://docs.microsoft.com/en-us/windows/privacy/windows-endpoints-21h1-non-enterprise-editions
+# https://docs.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+# https://superuser.com/questions/1030329/better-to-block-a-host-to-0-0-0-0-than-to-127-0-0-1
+
+127.0.0.1 tile-service.weather.microsoft.com
+127.0.0.1 cdn.onenote.net
+127.0.0.1 evoke-windowsservices-tas.msedge.net
+127.0.0.1 www.bing.com
+127.0.0.1 bing.com
+127.0.0.1 fp.msedge.net
+127.0.0.1 I-ring.msedge.net
+127.0.0.1 s-ring.msedge.net
+127.0.0.1 v10.events.data.microsoft.com
+127.0.0.1 telecommand.telemetry.microsoft.com
+127.0.0.1 maps.windows.com
+127.0.0.1 iecvlist.microsoft.com
+127.0.0.1 arc.msn.com
+127.0.0.1 ris.api.iris.microsoft.com
+127.0.0.1 activity.windows.com
+127.0.0.1 virtualearth.net
+127.0.0.1 mucp.api.account.microsoft.com
+127.0.0.1 v10c.events.data.microsoft.com
+127.0.0.1 v10.vortex-win.data.microsoft.com
+127.0.0.1 watson.telemetry.microsoft.com
+127.0.0.1 watson.microsoft.com
+127.0.0.1 umwatsonc.telemetry.microsoft.com
+127.0.0.1 umwatsonc.events.data.microsoft.com
+127.0.0.1 ceuswatcab01.blob.core.windows.net
+127.0.0.1 ceuswatcab02.blob.core.windows.net
+127.0.0.1 eaus2watcab01.blob.core.windows.net
+127.0.0.1 eaus2watcab02.blob.core.windows.net
+127.0.0.1 weus2watcab01.blob.core.windows.net
+127.0.0.1 weus2watcab02.blob.core.windows.net
+127.0.0.1 oca.telemetry.microsoft.com
+127.0.0.1 oca.microsoft.com
+127.0.0.1 kmwatsonc.telemetry.microsoft.com
