@@ -84,3 +84,6 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent" /v 
 :: Reference: https://learn.microsoft.com/en-us/windows/deployment/do/waas-delivery-optimization-reference
 :: Delivery Optimization
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization" /v DODownloadMode /t REG_DWORD /d 0 /f
+
+:: Widgets
+reg add "HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Widgets" /v AllowWidgets /t REG_DWORD /d 0 /f
