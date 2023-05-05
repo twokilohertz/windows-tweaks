@@ -1,0 +1,49 @@
+# Endpoints to block in Windows 10 22H2
+# See the following:
+# https://docs.microsoft.com/en-gb/windows/privacy/configure-windows-diagnostic-data-in-your-organization
+# https://learn.microsoft.com/en-us/windows/privacy/manage-windows-21h2-endpoints
+# https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+# "For IPv6, the black hole prefix 100::/64 is described by RFC 6666."
+# "For IPv4, no black hole address is explicitly defined, however the reserved IP addresses can help achieve a similar effect."
+
+# Apps
+tile-service.weather.microsoft.com
+cdn.onenote.net
+evoke-windowsservices-tas.msedge.net
+maps.windows.com
+
+# Windows Spotlight
+arc.msn.com
+ris.api.iris.microsoft.com
+
+# Connected User Experiences and Telemetry
+127.0.0.1 v10.events.data.microsoft.com
+127.0.0.1 v10c.events.data.microsoft.com
+127.0.0.1 v10.vortex-win.data.microsoft.com
+
+# Windows Error Reporting
+127.0.0.1 watson.telemetry.microsoft.com
+127.0.0.1 umwatsonc.events.data.microsoft.com
+127.0.0.1 ceuswatcab01.blob.core.windows.net
+127.0.0.1 ceuswatcab02.blob.core.windows.net
+127.0.0.1 eaus2watcab01.blob.core.windows.net
+127.0.0.1 eaus2watcab02.blob.core.windows.net
+127.0.0.1 weus2watcab01.blob.core.windows.net
+127.0.0.1 weus2watcab02.blob.core.windows.net
+
+# Online Crash Analysis
+127.0.0.1 oca.telemetry.microsoft.com
+127.0.0.1 oca.microsoft.com
+127.0.0.1 kmwatsonc.events.data.microsoft.com
+
+# Windows 11 Enterprise connection endpoints
+
+# Cortana and Live Tiles
+127.0.0.1 www.bing.com
+127.0.0.1 bing.com
+127.0.0.1 fp.msedge.net
+127.0.0.1 I-ring.msedge.net
+127.0.0.1 s-ring.msedge.net
+
+# Diagnostic Data
+127.0.0.1 telecommand.telemetry.microsoft.com
