@@ -1,4 +1,5 @@
 :: https://learn.microsoft.com/en-us/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services
+:: https://admx.help/?Category=Windows_10_2016
 
 :: Cortana and Search
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 0 /f
@@ -90,3 +91,7 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimiza
 
 :: Widgets
 reg add "HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Widgets" /v AllowWidgets /t REG_DWORD /d 0 /f
+
+:: Cloud Content & Spotlight
+reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CloudContent" /v ConfigureWindowsSpotlight /t REG_DWORD /d 2 /f
+reg add "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CloudContent" /v DisableThirdPartySuggestions /t REG_DWORD /d 1 /f
