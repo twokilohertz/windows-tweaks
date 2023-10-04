@@ -2,6 +2,7 @@
 # See the following:
 # https://docs.microsoft.com/en-gb/windows/privacy/configure-windows-diagnostic-data-in-your-organization
 # https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints
+# https://learn.microsoft.com/en-us/windows/privacy/windows-11-endpoints-non-enterprise-editions
 # "For IPv6, the black hole prefix 100::/64 is described by RFC 6666."
 # "For IPv4, no black hole address is explicitly defined, however the reserved IP addresses can help achieve a similar effect."
 
@@ -23,16 +24,53 @@
 # Online Crash Analysis
 127.0.0.1 oca.telemetry.microsoft.com
 127.0.0.1 oca.microsoft.com
-127.0.0.1 kmwatsonc.events.data.microsoft.com
+127.0.0.1 kmwatsonc.events.data.microsoft.com 
 
-# Windows 11 Enterprise connection endpoints
+# Apps
+127.0.0.1 tile-service.weather.microsoft.com
+127.0.0.1 cdn.onenote.net
+127.0.0.1 evoke-windowsservices-tas.msedge.net
+127.0.0.1 spclient.wg.spotify.com
 
-# Cortana and Live Tiles
+# Cortana & Live Tiles
 127.0.0.1 www.bing.com
 127.0.0.1 bing.com
+127.0.0.1 business.bing.com
+127.0.0.1 c.bing.com
+127.0.0.1 th.bing.com
+127.0.0.1 c-ring.msedge.net
 127.0.0.1 fp.msedge.net
 127.0.0.1 I-ring.msedge.net
 127.0.0.1 s-ring.msedge.net
+127.0.0.1 dual-s-ring.msedge.net
+127.0.0.1 creativecdn.com
+127.0.0.1 edgeassetservice.azureedge.net
 
 # Diagnostic Data
+127.0.0.1 self.events.data.microsoft.com
 127.0.0.1 telecommand.telemetry.microsoft.com
+127.0.0.1 www.telecommandsvc.microsoft.com
+
+# Location
+127.0.0.1 inference.location.live.net
+
+# Windows Spotlight
+127.0.0.1 arc.msn.com
+127.0.0.1 ris.api.iris.microsoft.com
+127.0.0.1 api.msn.com
+127.0.0.1 assets.msn.com
+127.0.0.1 c.msn.com
+127.0.0.1 ntp.msn.com
+127.0.0.1 srtb.msn.com
+127.0.0.1 www.msn.com
+127.0.0.1 fd.api.iris.microsoft.com
+127.0.0.1 mucp.api.account.microsoft.com
+
+# Activity Feed Service
+127.0.0.1 activity.windows.com
+
+# Microsoft Defender Antivirus
+127.0.0.1 wdcp.microsoft.com
+127.0.0.1 wdcpalt.microsoft.com
+127.0.0.1 smartscreen-prod.microsoft.com
+127.0.0.1 smartscreen.microsoft.com
