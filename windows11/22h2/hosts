@@ -30,7 +30,6 @@
 127.0.0.1 tile-service.weather.microsoft.com
 127.0.0.1 cdn.onenote.net
 127.0.0.1 evoke-windowsservices-tas.msedge.net
-127.0.0.1 spclient.wg.spotify.com
 
 # Cortana & Live Tiles
 127.0.0.1 www.bing.com
