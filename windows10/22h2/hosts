@@ -8,15 +8,11 @@
 
 # Activity Feed
 127.0.0.1 activity.windows.com
-0100:0000:0000:0000:0000:0000:0000:0000 activity.windows.com
 
 # Apps
 127.0.0.1 tile-service.weather.microsoft.com
 127.0.0.1 evoke-windowsservices-tas.msedge.net
 127.0.0.1 cdn.onenote.net
-0100:0000:0000:0000:0000:0000:0000:0000 tile-service.weather.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 evoke-windowsservices-tas.msedge.net
-0100:0000:0000:0000:0000:0000:0000:0000 cdn.onenote.net
 
 # Cortana and Live Tiles
 127.0.0.1 www.bing.com
@@ -26,13 +22,6 @@
 127.0.0.1 b-ring.msedge.net
 127.0.0.1 I-ring.msedge.net
 127.0.0.1 s-ring.msedge.net
-0100:0000:0000:0000:0000:0000:0000:0000 www.bing.com
-0100:0000:0000:0000:0000:0000:0000:0000 bing.com
-0100:0000:0000:0000:0000:0000:0000:0000 fp.msedge.net
-0100:0000:0000:0000:0000:0000:0000:0000 k-ring.msedge.net
-0100:0000:0000:0000:0000:0000:0000:0000 b-ring.msedge.net
-0100:0000:0000:0000:0000:0000:0000:0000 I-ring.msedge.net
-0100:0000:0000:0000:0000:0000:0000:0000 s-ring.msedge.net
 
 # Diagnostic Data & Error Reporting
 127.0.0.1 v10.events.data.microsoft.com
@@ -47,26 +36,11 @@
 127.0.0.1 eaus2watcab02.blob.core.windows.net
 127.0.0.1 weus2watcab01.blob.core.windows.net
 127.0.0.1 weus2watcab02.blob.core.windows.net
-0100:0000:0000:0000:0000:0000:0000:0000 v10.events.data.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 v10c.events.data.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 v10.vortex-win.data.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 telecommand.telemetry.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 watson.telemetry.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 umwatsonc.events.data.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 ceuswatcab01.blob.core.windows.net
-0100:0000:0000:0000:0000:0000:0000:0000 ceuswatcab02.blob.core.windows.net
-0100:0000:0000:0000:0000:0000:0000:0000 eaus2watcab01.blob.core.windows.net
-0100:0000:0000:0000:0000:0000:0000:0000 eaus2watcab02.blob.core.windows.net
-0100:0000:0000:0000:0000:0000:0000:0000 weus2watcab01.blob.core.windows.net
-0100:0000:0000:0000:0000:0000:0000:0000 weus2watcab02.blob.core.windows.net
 
 # Online Crash Analysis
 127.0.0.1 oca.telemetry.microsoft.com
 127.0.0.1 oca.microsoft.com
 127.0.0.1 kmwatsonc.events.data.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 oca.telemetry.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 oca.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 kmwatsonc.events.data.microsoft.com
 
 # Windows Defender
 127.0.0.1 wdcp.microsoft.com
@@ -75,17 +49,8 @@
 127.0.0.1 checkappexec.microsoft.com
 127.0.0.1 definitionupdates.microsoft.com
 127.0.0.1 smartscreen.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 wdcp.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 wdcpalt.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 smartscreen-prod.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 checkappexec.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 definitionupdates.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 smartscreen.microsoft.com
 
 # Windows Spotlight
 127.0.0.1 arc.msn.com
 127.0.0.1 ris.api.iris.microsoft.com
 127.0.0.1 mucp.api.account.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 arc.msn.com
-0100:0000:0000:0000:0000:0000:0000:0000 ris.api.iris.microsoft.com
-0100:0000:0000:0000:0000:0000:0000:0000 mucp.api.account.microsoft.com
